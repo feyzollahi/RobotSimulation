@@ -1,0 +1,285 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.7610499503100123 -0.6402493428506847 -0.10432522280059754 5.478748269746312
+  position 2.7001195695618256 2.6352199575366777 3.316762954971049
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 10
+}
+PlasticCrate {
+  translation 1.5 0 -1.5
+  size 0.8 0.4 0.8
+}
+Solid {
+  name "solid(2)"
+}
+Table {
+  translation 0 0 -1.5
+  size 2 0.4 0.4
+}
+Irb4600-40 {
+  rotation 1 0 0 -1.5707953071795862
+  controller "my_controller"
+  handSlot [
+    Camera {
+      translation 9.05912e-07 -3.13364e-07 3.52079e-14
+      rotation -0.9999999999991198 1.3267899999988322e-06 4.794899999995779e-09 3.14159
+      recognitionColors [
+        0 0 0
+      ]
+      recognition Recognition {
+      }
+    }
+    Robotiq3fGripper {
+      translation 0 0 0
+      rotation 1 0 0 1.57
+    }
+  ]
+  staticBase TRUE
+}
+ConveyorBelt {
+  translation 1.2 0 2
+  rotation 0 1 0 1.5708
+  size 5 0.38 0.4
+  speed 0.09
+}
+Solid {
+  translation 1.19861 0.474116 1.6026
+  rotation 0.9381720559725311 -0.34616644721425943 -0.001408621784426409 0.0037604749429354088
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+      }
+      geometry Cylinder {
+        height 0.2
+        radius 0.05
+      }
+    }
+  ]
+  boundingObject Cylinder {
+    height 0.2
+    radius 0.05
+  }
+  physics Physics {
+    mass 1
+  }
+  recognitionColors [
+    0 0 1
+  ]
+}
+Solid {
+  translation 1.19909 0.475422 1.2326
+  rotation 0.9381720559725311 -0.34616644721425943 -0.001408621784426409 0.0037604749429354088
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+      }
+      geometry Cylinder {
+        height 0.2
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject Cylinder {
+    height 0.2
+    radius 0.05
+  }
+  physics Physics {
+    mass 1
+  }
+  recognitionColors [
+    0 0 1
+  ]
+}
+Solid {
+  translation 1.19694 0.468888 2.89273
+  rotation 0.9659682038666974 -0.25802176541098953 0.018171342623556554 0.005045016356412763
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+      }
+      geometry Cylinder {
+        height 0.2
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject Cylinder {
+    height 0.2
+    radius 0.05
+  }
+  physics Physics {
+    mass 1
+  }
+  recognitionColors [
+    0 1 0
+  ]
+}
+Solid {
+  translation 1.19829 0.473508 1.94273
+  rotation 0.9659682038666974 -0.25802176541098953 0.018171342623556554 0.005045016356412763
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+      }
+      geometry Cylinder {
+        height 0.2
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject Cylinder {
+    height 0.2
+    radius 0.05
+  }
+  physics Physics {
+    mass 1
+  }
+  recognitionColors [
+    0 1 0
+  ]
+}
+Solid {
+  translation 1.19963 0.482402 0.822738
+  rotation 0.9659749182650039 -0.258011599626489 0.0179574981859782 0.005045221839405072
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+      }
+      geometry Cylinder {
+        height 0.2
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject Cylinder {
+    height 0.2
+    radius 0.05
+  }
+  physics Physics {
+    mass 1
+  }
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 1.19545 0.467153 3.95273
+  rotation 0.9659749182650039 -0.258011599626489 0.0179574981859782 0.005045221839405072
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+      }
+      geometry Cylinder {
+        height 0.2
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject Cylinder {
+    height 0.2
+    radius 0.05
+  }
+  physics Physics {
+    mass 1
+  }
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 1.19734 0.474116 2.52273
+  rotation 0.9659749182650039 -0.258011599626489 0.0179574981859782 0.005045221839405072
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+      }
+      geometry Cylinder {
+        height 0.2
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject Cylinder {
+    height 0.2
+    radius 0.05
+  }
+  physics Physics {
+    mass 1
+  }
+  recognitionColors [
+    1 0 0
+  ]
+}
+Solid {
+  translation 1.19632 0.477686 3.26272
+  rotation 0.9658809020375412 -0.25839060748817816 0.01756066744277166 0.00503783384715684
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+      }
+      geometry Cylinder {
+        height 0.2
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject Cylinder {
+    height 0.2
+    radius 0.05
+  }
+  physics Physics {
+    mass 1
+  }
+  recognitionColors [
+    0 0 1
+  ]
+}
+Solid {
+  translation 1.19497 0.472272 4.37272
+  rotation 0.9658809020375412 -0.25839060748817816 0.01756066744277166 0.00503783384715684
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+      }
+      geometry Cylinder {
+        height 0.2
+        radius 0.05
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject Cylinder {
+    height 0.2
+    radius 0.05
+  }
+  physics Physics {
+    mass 1
+  }
+  recognitionColors [
+    0 0 1
+  ]
+}
